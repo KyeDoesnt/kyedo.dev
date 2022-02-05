@@ -1,0 +1,55 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,400;1,900&display=swap');
+
+
+
+/* ROOT and VARIABLES */
+:root {
+  --col-red:    #E0153A;
+  --col-blue:   #25A3F3;
+  --col-yellow: #FBC917;
+  --col-purple: #6526F5;
+  --col-black:  #181A20;
+  --col-white:  #FFFFFF;
+  
+  --primary:   var(--col-white);
+  --secondary: var(--col-black);
+  
+  color:      var(--secondary);
+  background: var(--primary);
+  
+  font-family: 'Roboto', sans-serif;
+}
+
+:root[theme="light"] {
+  --primary:   var(--col-white);
+  --secondary: var(--col-black);
+}
+
+:root[theme="dark"] {
+  --primary:   var(--col-black);
+  --secondary: var(--col-white);
+}
+
+
+
+/* HEADERS */
+h1 {
+  font-size: 5em;
+  font-weight: 900;
+}
+
+
+
+/* PAGE CONTENT */
+#content {
+  width: 100%;
+  max-width: 900px;
+  
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+  min-height: 150px;
+}
