@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Benji",
+        "link": "https://twitter.com/BenjiDoesnt",
+        "caption": "Visit this dawg's Twitter!",
+        "nsfw": false,
+        "contribution": "General support."
+    },
+    {
+        "name": "Raine Doe",
+        "link": "https://raine.fyi/",
+        "caption": "Visit this doe's website!",
+        "nsfw": false,
+        "contribution": "Commissions and ToS layout inspiration."
+    },
+    {
+        "name": "Speechless Hyena",
+        "link": "https://speechlessyeen.carrd.co/",
+        "caption": "Visit this yeen's Carrd!",
+        "nsfw": false,
+        "contribution": ""
+    },
+    {
+        "name": "Kihu",
+        "link": "https://twitter.com/KihuBlue",
+        "caption": "Visit this spicy dawg's Twitter!",
+        "nsfw": true,
+        "contribution": "Tweeted something that reminded me to put a statement about NFTs in my ToS."
+    }
+]

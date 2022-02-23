@@ -9,8 +9,8 @@
 //////////
 
 /* Packages */
-const express    = require('express'),
-      { engine } = require('express-handlebars');
+const express  = require('express'),
+    { engine } = require('express-handlebars');
 
 /* Globals */
 const app = express();
@@ -36,6 +36,7 @@ app.get('/', (req, res) => {
   res.status(200).render('index', {
     title: "Kye Cedar",
     canonical: "https://kyedo.dev",
+    credits: require('./data/credits.json'),
   });
 });
 
